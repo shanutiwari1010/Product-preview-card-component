@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.perfume-card-wrapper {
+  margin: 150px auto;
+  display: flex;
+  width: 900px;
+  height: 450px;
+  justify-content: center;
+}
+
+.card-content-wrapper {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 35px;
+  width: 300px;
+  padding-left: 25px;
+}
+.perfume-top {
+  padding-top: 30px;
+}
+.card-content-wrapper h1 {
+  max-width: 200px;
+}
+.perfume-image {
+  width: 100%;
+  height: 100%;
+}
+.para-content {
+  color: hsl(228, 12%, 48%);
+}
+
+.perfume-pricing {
+  display: flex;
+  flex-direction: row;
+}
+.perfume-pricing h1 {
+  color: hsl(158, 36%, 37%);
+  max-width: 450px;
+}
+.perfume-actual-price {
+  text-decoration: line-through;
+}
+
+.add-to-cart-btn {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  padding: 12px 70px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 30px;
+}
+
